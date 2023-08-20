@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #0d1a2d;
+}
+p{
+    font-size:0.8rem;
+    color: #afc5e6;
+    margin: auto;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+
+.card{
+    width: 170px;
+    height: 280px;
+    background-color:#15273f;
+    padding: 10px;
+    border-radius: 5px;
+}
+h1,h2,h3{
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    margin: 0%;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+.logo{
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.tahia{
+    margin-top: 12px;
+display: flex;
+justify-content: space-between;
+font-size: 5rem;
+align-items: center;
+}
+.side{
+    display: flex;
+align-items: center;
+gap: 2px;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+}
+.pic{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding-bottom: 2px;
+    border: 1px solid white;
+}
+.clock{
+    margin-top: 12px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.id{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 5rem;
+    align-items: center;
+    border-radius: 10px;
+
+
+}
+.white{
+color: white;
+}
+.text{
+    font-size: 10px;
+
+}
+.hr{ 
+    opacity: 0.5;
+    margin-top: 5px;
+}
